@@ -1,0 +1,21 @@
+<html>
+<head>
+<title>for</title>
+</head>
+<body>
+<h1>Пример простой</h1>
+
+<script language="JavaScript" type="text/JavaScript">
+  function line(width) {
+    document.writeln("<hr align='center' width='" + width + "'>");
+  }
+
+  var lineWidth = 10; // Начальная ширина линии
+  for (var i = 0; i < 10; i++) {
+    line(lineWidth);
+    lineWidth += 10; // Увеличиваем ширину линии на 10 пикселей
+  }
+</script>
+
+</body>
+</html>
